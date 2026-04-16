@@ -1,0 +1,136 @@
+# 🤖 AI Chatbot — Project Overview
+
+## 📌 Objective
+
+The AI Chatbot is a full-stack application that enables users to interact with an AI model through a conversational interface.
+It demonstrates how to integrate AI models into real-world applications using APIs and build a usable product from scratch.
+
+---
+
+## 🧠 Core Functionality
+
+### 1. User Interaction (UI)
+
+* Users enter queries through a Streamlit-based interface
+* Displays chat history in a conversational format
+
+---
+
+### 2. API Communication
+
+* Sends user input to a backend API
+* Receives AI-generated responses in real time
+
+---
+
+### 3. AI Response Generation
+
+* Integrates with a Large Language Model (LLM) via API
+* Generates contextual and meaningful responses
+
+---
+
+### 4. Conversation Memory
+
+* Maintains chat history during session
+* Enables multi-turn conversations
+
+---
+
+## 🏗️ System Architecture
+
+User (Streamlit UI)
+↓
+FastAPI Backend
+↓
+AI Service Layer
+↓
+LLM (Hugging Face API)
+↓
+Response → UI
+
+---
+
+## ⚙️ Tech Stack
+
+### Backend
+
+* Python
+* FastAPI (REST API development)
+
+### AI Integration
+
+* Hugging Face Inference Client
+* Prompt-based interaction with LLM
+
+### Frontend
+
+* Streamlit (interactive UI)
+
+### Data Handling
+
+* Session-based memory (chat history)
+
+### Dev Tools
+
+* Git & GitHub (version control)
+* Render (backend deployment)
+
+---
+
+## 🔄 Workflow
+
+1. User enters a message in UI
+2. Request sent to FastAPI backend
+3. Backend forwards input to AI model
+4. AI generates response
+5. Response returned and displayed in UI
+6. Chat history updated
+
+---
+
+## 🎯 Key Features
+
+* Real-time AI responses
+* Clean chat interface
+* Session-based memory
+* Modular backend architecture
+* Deployed backend (accessible via public URL)
+
+---
+
+## 🚀 Use Cases
+
+* General-purpose AI assistant
+* Learning conversational AI systems
+* Foundation for advanced AI products
+
+---
+
+## 📊 Limitations
+
+* Memory is session-based (not persistent)
+* No user authentication
+* Dependent on external AI API
+
+---
+
+## 🔮 Future Enhancements
+
+* Persistent chat history (database)
+* Multi-user support
+* Custom AI modes (coding, career, etc.)
+* Improved UI (chat bubbles, avatars)
+
+---
+
+## 🧠 Summary
+
+This project demonstrates the ability to:
+
+* Build and deploy a backend API
+* Integrate AI models into applications
+* Create a functional UI for interaction
+* Design end-to-end AI systems
+
+👉 Serves as a strong foundation for building production-level AI applications.
